@@ -1,26 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!--
-lang attribute specifies the language code that will be used in the html file
-it is considered global because everything between the html tags are affected
-(descendents). dir attribute specifies the direction of paragraph text "ltr" is
-left to right, "rtl" is right to left and "auto" lets the browser decide the direction
-based upon the context of the text
- -->
-
 <head>
   <meta charset="utf-8">
-  <!--
-utf-8 is the character set that will encode the characters in the code as unicode.
-This will enable all the text and symbols in the website to render correctly.
--->
-  <title>Mario's Personal Website</title>
-  <!--
-Title is the text that appears in the tab of the browser
-  -->
-
-</head>
-
+ </head>
 <body>
   <table cellspacing="20">
     <td><img src="images\mario.png" height="200" width="200" alt="mario profile picture"></td>
@@ -30,19 +12,16 @@ Title is the text that appears in the tab of the browser
       <p>This is my personal bio.</p>
     </td>
   </table>
-
   <hr size="1" noshade color="black">
-
   <div>
     <h3 id="Education">Education</h3>
     <ul>
-      <li>Science Diploma
-        <!-- Below is nested list. Note Closing tag is not here-->
+      <li>Science Diploma        
         <ul>
           <li>School: Belmopan Comprehensive High School</li>
           <li>Year: 2012 - 2016</li>
         </ul>
-      </li> <!-- Closing tag is here! -->
+      </li>
       <br>
       <li>Associates Degree, Marine Biology
         <ul>
@@ -77,36 +56,6 @@ Title is the text that appears in the tab of the browser
   <hr>
   <div id="skills">
     <h3>Skills</h3>
-    <!--
-    <table border="1">
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Under Water Basket Weaving</td>
-            <td>⭐</td>
-          </tr>
-        </table>
-      </td>
-
-      <td>
-        <table>
-          <tr>
-            <td>Photography</td>
-            <td>⭐</td>
-          </tr>
-          <tr>
-            <td>Skinning-it</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      </table>
-    </table>
-  -->
     <table cellspacing="10">
       <tr>
         <td>HTML</td>
@@ -124,15 +73,9 @@ Title is the text that appears in the tab of the browser
         <td>⭐⭐⭐⭐⭐</td>
       </tr>
     </table>
-
   </div>
-
   <hr size="1" noshade color="black">
   <a href="hobbies.html">My Hobbies</a>
   <a href="contact.html">Contact Me</a>
-
-
-
 </body>
-
 </html>
